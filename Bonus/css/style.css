@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    position: relative;
+    width: 80%;
+    height: 409px;
+    margin:250px auto;
+    
+}
+
+.box-img{
+
+    height: 409px;
+    overflow: hidden;
+    display: none;
+}
+.box-img.first img{
+    margin-top: -250px;
+}
+.box-img.second img{
+    margin-top: -300px;
+}
+.box-img.five img{
+    margin-top: -326px;
+}
+.box-img img{
+    width: 100%;
+}
+.active{
+    display: inline-block;
+}
+.hidden{
+    display: none;
+}
+.btn{
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%,0);
+
+    border: none;
+    padding: 4px 11px;
+    border-radius: 50%;
+    opacity: .8;
+    font-size: 30px;
+}
+.btn.top{
+    top: 20px;
+}
+.btn.bottom{
+    bottom: 20px;
+}
