@@ -3,7 +3,6 @@ let btnAfter = document.querySelector('.btn.bottom');
 let arrayImg = []
 let activeItems = 0;
 const ul = document.querySelector('ul');
-let slide = document.getElementById('slide');
 let content;
 
 

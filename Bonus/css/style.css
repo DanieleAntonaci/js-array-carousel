@@ -8,9 +8,12 @@
     width: 80%;
     height: 409px;
     margin:250px auto;
-    
+    display: flex;
+    align-items: center;
 }
-
+#slide{
+    margin: 0 auto;
+}
 .box-img{
 
     height: 409px;

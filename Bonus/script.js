@@ -12,7 +12,6 @@ for (let i = 0; i < 5; i++) {
     ul.innerHTML += content;
     arrayImg.push(content);
 };
-
 let arrayImmagini = document.getElementsByClassName('box-img');
 arrayImmagini[0].classList.add('active');
 arrayImmagini[0].classList.add('first');
