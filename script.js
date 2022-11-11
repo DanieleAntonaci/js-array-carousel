@@ -10,7 +10,7 @@ let content;
 
 for (let i = 0; i < 5; i++) {
     content = `<li class='box-img'><img src="img/0${i + 1}.webp"></li>`
-
+    ul.innerHTML += content
     arrayImg.push(content)
 };
 // arrayImg[0].classList.add('active')
