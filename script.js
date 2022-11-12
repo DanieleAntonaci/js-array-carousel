@@ -13,6 +13,8 @@ for (let i = 0; i < 5; i++) {
 };
 
 let arrayImmagini = document.getElementsByClassName('box-img');
+
+// crop image
 arrayImmagini[0].classList.add('active');
 arrayImmagini[0].classList.add('first');
 arrayImmagini[1].classList.add('second');
